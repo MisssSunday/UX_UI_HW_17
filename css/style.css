@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.header {
+    display: block;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.aside {
+    float: left;
+    border: 25px solid white;
+    padding-left: 15%;
+}
+
+.navigation {
+    display: block;
+    background-color: white;
+    float: none;
+    left: 40%;
+    padding-left: 36%;
+}
+
+.navigationList {
+    border: 1px solid write;
+    padding: 17px;
+    font-size: 16px;
+    font-family:Oxygen,'Helvetica Neue';
+}
+
+.navigationListItem {
+    display: inline-block;
+    background-color:white;
+    height: 90px;
+    width: 120px;
+    padding: 25px;
+    text-align:end;
+    float: initial;
+}
+
+.image {
+    padding-left: 15%;
+    position:fixed; top: 200px;
+}
+
+.image2 {
+    width: 300px;
+    height: 30px;
+    position: fixed; top: 190px;
+    left: 39%;
+}
+.yanniLu {
+    width: 300px;
+    height: 30px;
+    position: fixed; top: 200px;
+    left: 40%;
+    font-size: 28px;
+    font-family:Oxygen,'Helvetica Neue';
+
+}
+
+.aboutMe1 {
+    width: 540px;
+    height: 30px;
+    position: fixed; top: 270px;
+    left: 40%;
+    font-size: 16px;
+    font-family:Oxygen,'Helvetica Neue';
+}
+
+.aboutMe2 {
+    width: 540px;
+    height: 30px;
+    position: fixed; top: 330px;
+    left: 40%; 
+    font-size: 16px;
+    font-family:Oxygen,'Helvetica Neue';
+}
+
+.line {
+    object-position: center;
+    position: fixed; top: 500px;
+    left: 15%
+}
+
+.caseStudy {
+    font-family:Oxygen,'Helvetica Neue'; 
+}
+
+
+
+
+
+
+.woodWorthCabinetryTitle {
+    width: 540px;
+    height: 30px;
+    position: fixed; top: 630px;
+    left: 15%; 
+    font-size: 18px; 
+}
+
+.woodWorthCabinetryLine {
+    width: 540px;
+    height: 30px;
+    position: fixed; top: 650px;
+    left: 15%;  
+}
+
+.woodWorthCabinetryContent {
+    width: 540px;
+    height: 30px;
+    position: fixed; top: 675px;
+    left: 15%;  
+    font-size: 14px;
+}
+
+.woodWorthCabinetryContent2 {
+    width: 540px;
+    height: 30px;
+    position: fixed; top: 700px;
+    left: 15%;  
+    font-size: 14px;
+}
+
+.woodWorthCabinetryImage {
+
+    position: fixed; top: 630px;
+    left: 40%; 
+ 
+}
+
+.woodWorthCabinetryContent3 {
+    width: 630px;
+    height: 30px;
+    position: fixed; top: 900px;
+    left: 40%; 
+    font-size: 12px; 
+}
+
+
+
+
+
+
+.furnitureBankTitle {
+    width: 540px;
+    height: 30px;
+    position: fixed; top: 1050px;
+    left: 15%; 
+    font-size: 18px; 
+}
+
+.furnitureBankLine {
+    width: 540px;
+    height: 30px;
+    position: fixed; top: 1070px;
+    left: 15%;  
+}
+
+.furnitureBankContent {
+    width: 540px;
+    height: 30px;
+    position: fixed; top: 1095px;
+    left: 15%;  
+    font-size: 14px;
+}
+
+.furnitureBankContent2 {
+    width: 540px;
+    height: 30px;
+    position: fixed; top: 1120px;
+    left: 15%;  
+    font-size: 14px;
+}
+
+.furnitureBankImage {
+
+    position: fixed; top: 1050px;
+    left: 40%; 
+ 
+}
+
+.furnitureBankContent3 {
+    width: 630px;
+    height: 30px;
+    position: fixed; top: 1320px;
+    left: 40%; 
+    font-size: 12px; 
+}
+
+
+
+
+
+
+.airbnbHomeOfficeTitle {
+    width: 540px;
+    height: 30px;
+    position: fixed; top: 1470px;
+    left: 15%; 
+    font-size: 18px; 
+}
+
+.airbnbHomeOfficeLine {
+    width: 540px;
+    height: 30px;
+    position: fixed; top: 1490px;
+    left: 15%;  
+}
+
+.airbnbHomeOfficeContent {
+    width: 540px;
+    height: 30px;
+    position: fixed; top: 1515px;
+    left: 15%;  
+    font-size: 14px;
+}
+
+.airbnbHomeOfficeContent2 {
+    width: 540px;
+    height: 30px;
+    position: fixed; top: 1540px;
+    left: 15%;  
+    font-size: 14px;
+}
+
+.airbnbHomeOfficeImage {
+
+    position: fixed; top: 1470px;
+    left: 40%; 
+ 
+}
+
+.airbnbHomeOfficeContent3 {
+    width: 630px;
+    height: 30px;
+    position: fixed; top: 1740px;
+    left: 40%; 
+    font-size: 12px; 
+}
+
+
+
+
+
+
+
+
+.torontoMandarinSchoolTitle {
+    width: 540px;
+    height: 30px;
+    position: fixed; top: 1890px;
+    left: 15%; 
+    font-size: 18px; 
+}
+
+.torontoMandarinSchoolLine {
+    width: 540px;
+    height: 30px;
+    position: fixed; top: 1910px;
+    left: 15%;  
+}
+
+.torontoMandarinSchoolContent {
+    width: 540px;
+    height: 30px;
+    position: fixed; top: 1935px;
+    left: 15%;  
+    font-size: 14px;
+}
+
+.torontoMandarinSchoolContent2 {
+    width: 540px;
+    height: 30px;
+    position: fixed; top: 1960px;
+    left: 15%;  
+    font-size: 14px;
+}
+
+.torontoMandarinSchoolImage {
+
+    position: fixed; top: 1890px;
+    left: 40%; 
+ 
+}
+
+.torontoMandarinSchoolContent3 {
+    width: 630px;
+    height: 30px;
+    position: fixed; top: 2160px;
+    left: 40%; 
+    font-size: 12px; 
+}
