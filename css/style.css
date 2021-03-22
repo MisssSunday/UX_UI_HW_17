@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: din-2014, sans-serif;
 }
 
 .header {
@@ -11,84 +11,131 @@
     border: 1px solid white;
 }
 
-.aside {
-    float: left;
-    border: 25px solid white;
-    padding-left: 15%;
+.logo {
+
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.logoImage {
+    height: 50px;
 }
 
 .navigation {
-    display: block;
+    /* display: block; */
     background-color: white;
-    float: none;
+    /* float: none;
     left: 40%;
-    padding-left: 36%;
+    padding-left: 36%; */
+
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: auto;
 }
 
 .navigationList {
-    border: 1px solid write;
-    padding: 17px;
-    font-size: 16px;
-    font-family:Oxygen,'Helvetica Neue';
+
+    /* padding: 17px; */
+
+    display: flex;
+    align-items: center;
+    list-style: none;
 }
 
 .navigationListItem {
-    display: inline-block;
-    background-color:white;
-    height: 90px;
+    /* display: inline-block; */
+    /* background-color:white; */
+    /* height: 90px; */
     width: 120px;
-    padding: 25px;
-    text-align:end;
-    float: initial;
+    /* padding: 25px; */
+    text-align:center;
+    /* float: initial; */
+}
+
+.hero {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 5px;
+    width: 960px;
+    margin: auto;
+}
+
+.content {
+    display: flex;
+}
+
+.imageContainer {
+
+    margin-left: 0%;
+    align-items: center;
+    padding: 10px 30px;
+
+}
+
+.description {
+
+    margin-left: 30px;
 }
 
 .image {
-    padding-left: 15%;
-    position:fixed; top: 200px;
+    padding-left: 0;
+
 }
 
 .image2 {
     width: 300px;
     height: 30px;
-    position: fixed; top: 190px;
-    left: 39%;
+    /* position: fixed; top: 190px;
+    left: 39%; */
 }
 .yanniLu {
     width: 300px;
     height: 30px;
-    position: fixed; top: 200px;
-    left: 40%;
+    margin-top: -20px;
+    margin-left: 0;
+    /* position: fixed; top: 200px;
+    left: 40%; */
     font-size: 28px;
     font-family:Oxygen,'Helvetica Neue';
 
 }
 
-.aboutMe1 {
+.aboutMe1, .aboutMe2 {
     width: 540px;
-    height: 30px;
-    position: fixed; top: 270px;
-    left: 40%;
     font-size: 16px;
-    font-family:Oxygen,'Helvetica Neue';
+    margin-top: 30px;
+    line-height: 20px;
 }
 
-.aboutMe2 {
-    width: 540px;
-    height: 30px;
-    position: fixed; top: 330px;
-    left: 40%; 
-    font-size: 16px;
-    font-family:Oxygen,'Helvetica Neue';
-}
+
 
 .line {
-    object-position: center;
+    /* object-position: center;
     position: fixed; top: 500px;
-    left: 15%
+    left: 15% */
+    margin-top: 30px;
+    width: 100%;
+}
+
+.lineImage {
+    height: 1px;
+    width: 100%;
 }
 
 .caseStudy {
-    font-family:Oxygen,'Helvetica Neue'; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 5px;
+    width: 960px;
+    margin: auto;
 }
 
 
@@ -99,47 +146,40 @@
 .woodWorthCabinetryTitle {
     width: 540px;
     height: 30px;
-    position: fixed; top: 630px;
-    left: 15%; 
     font-size: 18px; 
 }
 
 .woodWorthCabinetryLine {
     width: 540px;
     height: 30px;
-    position: fixed; top: 650px;
-    left: 15%;  
+
 }
 
 .woodWorthCabinetryContent {
     width: 540px;
     height: 30px;
-    position: fixed; top: 675px;
-    left: 15%;  
     font-size: 14px;
 }
 
 .woodWorthCabinetryContent2 {
     width: 540px;
-    height: 30px;
-    position: fixed; top: 700px;
-    left: 15%;  
-    font-size: 14px;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 20px;
 }
 
 .woodWorthCabinetryImage {
-
-    position: fixed; top: 630px;
-    left: 40%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
  
 }
 
 .woodWorthCabinetryContent3 {
-    width: 630px;
-    height: 30px;
-    position: fixed; top: 900px;
-    left: 40%; 
-    font-size: 12px; 
+    width: 540px;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 20px;
 }
 
 
@@ -150,47 +190,40 @@
 .furnitureBankTitle {
     width: 540px;
     height: 30px;
-    position: fixed; top: 1050px;
-    left: 15%; 
     font-size: 18px; 
 }
 
 .furnitureBankLine {
     width: 540px;
     height: 30px;
-    position: fixed; top: 1070px;
-    left: 15%;  
 }
 
 .furnitureBankContent {
     width: 540px;
     height: 30px;
-    position: fixed; top: 1095px;
-    left: 15%;  
     font-size: 14px;
 }
 
 .furnitureBankContent2 {
     width: 540px;
-    height: 30px;
-    position: fixed; top: 1120px;
-    left: 15%;  
-    font-size: 14px;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 20px;
 }
 
 .furnitureBankImage {
-
-    position: fixed; top: 1050px;
-    left: 40%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
  
 }
 
 .furnitureBankContent3 {
-    width: 630px;
-    height: 30px;
-    position: fixed; top: 1320px;
-    left: 40%; 
-    font-size: 12px; 
+    width: 540px;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 20px;
 }
 
 
@@ -201,47 +234,40 @@
 .airbnbHomeOfficeTitle {
     width: 540px;
     height: 30px;
-    position: fixed; top: 1470px;
-    left: 15%; 
     font-size: 18px; 
 }
 
 .airbnbHomeOfficeLine {
     width: 540px;
-    height: 30px;
-    position: fixed; top: 1490px;
-    left: 15%;  
+    height: 30px; 
 }
 
 .airbnbHomeOfficeContent {
     width: 540px;
     height: 30px;
-    position: fixed; top: 1515px;
-    left: 15%;  
     font-size: 14px;
 }
 
 .airbnbHomeOfficeContent2 {
     width: 540px;
-    height: 30px;
-    position: fixed; top: 1540px;
-    left: 15%;  
-    font-size: 14px;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 20px;
 }
 
 .airbnbHomeOfficeImage {
-
-    position: fixed; top: 1470px;
-    left: 40%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
  
 }
 
 .airbnbHomeOfficeContent3 {
-    width: 630px;
-    height: 30px;
-    position: fixed; top: 1740px;
-    left: 40%; 
-    font-size: 12px; 
+    width: 540px;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 20px;
 }
 
 
@@ -254,45 +280,38 @@
 .torontoMandarinSchoolTitle {
     width: 540px;
     height: 30px;
-    position: fixed; top: 1890px;
-    left: 15%; 
     font-size: 18px; 
 }
 
 .torontoMandarinSchoolLine {
     width: 540px;
     height: 30px;
-    position: fixed; top: 1910px;
-    left: 15%;  
 }
 
 .torontoMandarinSchoolContent {
     width: 540px;
     height: 30px;
-    position: fixed; top: 1935px;
-    left: 15%;  
     font-size: 14px;
 }
 
 .torontoMandarinSchoolContent2 {
     width: 540px;
-    height: 30px;
-    position: fixed; top: 1960px;
-    left: 15%;  
-    font-size: 14px;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 20px;
 }
 
 .torontoMandarinSchoolImage {
-
-    position: fixed; top: 1890px;
-    left: 40%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
  
 }
 
 .torontoMandarinSchoolContent3 {
-    width: 630px;
-    height: 30px;
-    position: fixed; top: 2160px;
-    left: 40%; 
-    font-size: 12px; 
+    width: 540px;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 20px;
 }
